@@ -50,8 +50,29 @@ main{
 }
 .botones button{
     margin: 20px 30px;
-    width: 100px;
+    width: 150px;
     height: 50px;
     border: none;
     border-radius: 30px;
+    padding: 10px;
+    transition: 400ms;
+}
+.botones button:hover{
+    opacity:70%;
+    cursor: pointer;
+    width:200px ;
+
+   
+}
+.EncritarB, .DecritarB{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ResetB{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
