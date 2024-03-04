@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/46/e5/19/46e519ed84227dc9d01533ba57ebc19b.jpg);
+    overflow:hidden ;
+}
+
+h3{
+    margin: 0 auto;
+    font-size: 3rem;
+    text-align: center;
+    color: whitesmoke;
+
+}
+    
+main{
+
+    width: 100%;
+    margin: 10px;
+}
+
+.datos{
+    position: relative;
+    margin: 10px auto;
+    padding: auto 20px;
+    width: 50em;
+    background-color: rgba(85, 73, 113, .8);
+    text-align: center;
+    padding:10px;
+}
+.datos label{
+    display: block;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.Textos label, .respuesta{
+    display: inline-block;
+}
+.datos input{
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+}
+.respuesta{
+    right:0;
+    background-color:aliceblue ;
+    width: 40%;
+}
+.botones button{
+    margin: 20px 30px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
